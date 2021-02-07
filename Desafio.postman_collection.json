@@ -1,0 +1,78 @@
+{
+	"id": "8cea5f18-8c3d-2914-7c45-a7230e7ac313",
+	"name": "Desafio",
+	"description": "",
+	"order": [
+		"21928973-37d6-0278-968e-45dc220a38c7",
+		"bd1af4d5-0ece-43d7-2e7b-6478f352f47d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612733180132,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "21928973-37d6-0278-968e-45dc220a38c7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/car",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8cea5f18-8c3d-2914-7c45-a7230e7ac313",
+			"data": [],
+			"dataMode": "raw",
+			"name": "New car",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612733331360,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\":\"GOL\",\"model\":\"GOL\",\"dateModel\":\"2020\",\"avgCity\":\"10.5\",\"avgHighway\":\"16.5\"}"
+		},
+		{
+			"id": "bd1af4d5-0ece-43d7-2e7b-6478f352f47d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/listcars",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8cea5f18-8c3d-2914-7c45-a7230e7ac313",
+			"data": [],
+			"dataMode": "raw",
+			"name": "List cars",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612735253196,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\t{\"priceOil\":4.35,\"totalKMCity\":350,\"totalKMHighway\":1000}"
+		}
+	]
+}
